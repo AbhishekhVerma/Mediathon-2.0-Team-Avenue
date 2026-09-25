@@ -2586,26 +2586,25 @@ html {
     height: 2000vh !important; /* Slow down scrolling speed even more */
 }
 
+
+
 /* BURST SEQUENCE 2 */
 .burst-section-2 {
     position: relative;
     view-timeline-name: --burst-timeline-2;
 }
-
 @keyframes burst2_frame_0 {
-    0%, 0% { opacity: 0; visibility: hidden; }
-    0.001%, 4% { opacity: 1; visibility: visible; }
-    4.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 5% { opacity: 1; visibility: visible; }
+    5.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-0 {
     animation: burst2_frame_0 both;
     animation-timeline: --burst-timeline-2;
     z-index: 0;
 }
-
 @keyframes burst2_frame_1 {
-    0%, 1.471% { opacity: 0; visibility: hidden; }
-    1.472%, 6% { opacity: 1; visibility: visible; }
+    0%, 1.562% { opacity: 0; visibility: hidden; }
+    1.563%, 6% { opacity: 1; visibility: visible; }
     6.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-1 {
@@ -2613,21 +2612,19 @@ html {
     animation-timeline: --burst-timeline-2;
     z-index: 1;
 }
-
 @keyframes burst2_frame_2 {
-    0%, 2.941% { opacity: 0; visibility: hidden; }
-    2.942%, 7% { opacity: 1; visibility: visible; }
-    7.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 3.125% { opacity: 0; visibility: hidden; }
+    3.126%, 8% { opacity: 1; visibility: visible; }
+    8.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-2 {
     animation: burst2_frame_2 both;
     animation-timeline: --burst-timeline-2;
     z-index: 2;
 }
-
 @keyframes burst2_frame_3 {
-    0%, 4.412% { opacity: 0; visibility: hidden; }
-    4.413%, 9% { opacity: 1; visibility: visible; }
+    0%, 4.688% { opacity: 0; visibility: hidden; }
+    4.689%, 9% { opacity: 1; visibility: visible; }
     9.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-3 {
@@ -2635,21 +2632,19 @@ html {
     animation-timeline: --burst-timeline-2;
     z-index: 3;
 }
-
 @keyframes burst2_frame_4 {
-    0%, 5.882% { opacity: 0; visibility: hidden; }
-    5.883%, 10% { opacity: 1; visibility: visible; }
-    10.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 6.25% { opacity: 0; visibility: hidden; }
+    6.251%, 11% { opacity: 1; visibility: visible; }
+    11.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-4 {
     animation: burst2_frame_4 both;
     animation-timeline: --burst-timeline-2;
     z-index: 4;
 }
-
 @keyframes burst2_frame_5 {
-    0%, 7.353% { opacity: 0; visibility: hidden; }
-    7.354%, 12% { opacity: 1; visibility: visible; }
+    0%, 7.812% { opacity: 0; visibility: hidden; }
+    7.813%, 12% { opacity: 1; visibility: visible; }
     12.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-5 {
@@ -2657,638 +2652,579 @@ html {
     animation-timeline: --burst-timeline-2;
     z-index: 5;
 }
-
 @keyframes burst2_frame_6 {
-    0%, 8.824% { opacity: 0; visibility: hidden; }
-    8.825%, 13% { opacity: 1; visibility: visible; }
-    13.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 9.375% { opacity: 0; visibility: hidden; }
+    9.376%, 14% { opacity: 1; visibility: visible; }
+    14.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-6 {
     animation: burst2_frame_6 both;
     animation-timeline: --burst-timeline-2;
     z-index: 6;
 }
-
 @keyframes burst2_frame_7 {
-    0%, 10.294% { opacity: 0; visibility: hidden; }
-    10.295%, 15% { opacity: 1; visibility: visible; }
-    15.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 10.938% { opacity: 0; visibility: hidden; }
+    10.939%, 16% { opacity: 1; visibility: visible; }
+    16.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-7 {
     animation: burst2_frame_7 both;
     animation-timeline: --burst-timeline-2;
     z-index: 7;
 }
-
 @keyframes burst2_frame_8 {
-    0%, 11.765% { opacity: 0; visibility: hidden; }
-    11.766%, 16% { opacity: 1; visibility: visible; }
-    16.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 12.5% { opacity: 0; visibility: hidden; }
+    12.501%, 17% { opacity: 1; visibility: visible; }
+    17.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-8 {
     animation: burst2_frame_8 both;
     animation-timeline: --burst-timeline-2;
     z-index: 8;
 }
-
 @keyframes burst2_frame_9 {
-    0%, 13.235% { opacity: 0; visibility: hidden; }
-    13.236%, 18% { opacity: 1; visibility: visible; }
-    18.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 14.062% { opacity: 0; visibility: hidden; }
+    14.063%, 19% { opacity: 1; visibility: visible; }
+    19.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-9 {
     animation: burst2_frame_9 both;
     animation-timeline: --burst-timeline-2;
     z-index: 9;
 }
-
 @keyframes burst2_frame_10 {
-    0%, 14.706% { opacity: 0; visibility: hidden; }
-    14.707%, 19% { opacity: 1; visibility: visible; }
-    19.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 15.625% { opacity: 0; visibility: hidden; }
+    15.626%, 20% { opacity: 1; visibility: visible; }
+    20.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-10 {
     animation: burst2_frame_10 both;
     animation-timeline: --burst-timeline-2;
     z-index: 10;
 }
-
 @keyframes burst2_frame_11 {
-    0%, 16.176% { opacity: 0; visibility: hidden; }
-    16.177%, 21% { opacity: 1; visibility: visible; }
-    21.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 17.188% { opacity: 0; visibility: hidden; }
+    17.189%, 22% { opacity: 1; visibility: visible; }
+    22.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-11 {
     animation: burst2_frame_11 both;
     animation-timeline: --burst-timeline-2;
     z-index: 11;
 }
-
 @keyframes burst2_frame_12 {
-    0%, 17.647% { opacity: 0; visibility: hidden; }
-    17.648%, 22% { opacity: 1; visibility: visible; }
-    22.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 18.75% { opacity: 0; visibility: hidden; }
+    18.751%, 23% { opacity: 1; visibility: visible; }
+    23.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-12 {
     animation: burst2_frame_12 both;
     animation-timeline: --burst-timeline-2;
     z-index: 12;
 }
-
 @keyframes burst2_frame_13 {
-    0%, 19.118% { opacity: 0; visibility: hidden; }
-    19.119%, 24% { opacity: 1; visibility: visible; }
-    24.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 20.312% { opacity: 0; visibility: hidden; }
+    20.313%, 25% { opacity: 1; visibility: visible; }
+    25.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-13 {
     animation: burst2_frame_13 both;
     animation-timeline: --burst-timeline-2;
     z-index: 13;
 }
-
 @keyframes burst2_frame_14 {
-    0%, 20.588% { opacity: 0; visibility: hidden; }
-    20.589%, 25% { opacity: 1; visibility: visible; }
-    25.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 21.875% { opacity: 0; visibility: hidden; }
+    21.876%, 27% { opacity: 1; visibility: visible; }
+    27.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-14 {
     animation: burst2_frame_14 both;
     animation-timeline: --burst-timeline-2;
     z-index: 14;
 }
-
 @keyframes burst2_frame_15 {
-    0%, 22.059% { opacity: 0; visibility: hidden; }
-    22.06%, 26% { opacity: 1; visibility: visible; }
-    26.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 23.438% { opacity: 0; visibility: hidden; }
+    23.439%, 28% { opacity: 1; visibility: visible; }
+    28.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-15 {
     animation: burst2_frame_15 both;
     animation-timeline: --burst-timeline-2;
     z-index: 15;
 }
-
 @keyframes burst2_frame_16 {
-    0%, 23.529% { opacity: 0; visibility: hidden; }
-    23.53%, 28% { opacity: 1; visibility: visible; }
-    28.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 25% { opacity: 0; visibility: hidden; }
+    25.001%, 30% { opacity: 1; visibility: visible; }
+    30.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-16 {
     animation: burst2_frame_16 both;
     animation-timeline: --burst-timeline-2;
     z-index: 16;
 }
-
 @keyframes burst2_frame_17 {
-    0%, 25% { opacity: 0; visibility: hidden; }
-    25.001%, 29% { opacity: 1; visibility: visible; }
-    29.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 26.562% { opacity: 0; visibility: hidden; }
+    26.563%, 31% { opacity: 1; visibility: visible; }
+    31.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-17 {
     animation: burst2_frame_17 both;
     animation-timeline: --burst-timeline-2;
     z-index: 17;
 }
-
 @keyframes burst2_frame_18 {
-    0%, 26.471% { opacity: 0; visibility: hidden; }
-    26.472%, 31% { opacity: 1; visibility: visible; }
-    31.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 28.125% { opacity: 0; visibility: hidden; }
+    28.126%, 33% { opacity: 1; visibility: visible; }
+    33.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-18 {
     animation: burst2_frame_18 both;
     animation-timeline: --burst-timeline-2;
     z-index: 18;
 }
-
 @keyframes burst2_frame_19 {
-    0%, 27.941% { opacity: 0; visibility: hidden; }
-    27.942%, 32% { opacity: 1; visibility: visible; }
-    32.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 29.688% { opacity: 0; visibility: hidden; }
+    29.689%, 34% { opacity: 1; visibility: visible; }
+    34.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-19 {
     animation: burst2_frame_19 both;
     animation-timeline: --burst-timeline-2;
     z-index: 19;
 }
-
 @keyframes burst2_frame_20 {
-    0%, 29.412% { opacity: 0; visibility: hidden; }
-    29.413%, 34% { opacity: 1; visibility: visible; }
-    34.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 31.25% { opacity: 0; visibility: hidden; }
+    31.251%, 36% { opacity: 1; visibility: visible; }
+    36.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-20 {
     animation: burst2_frame_20 both;
     animation-timeline: --burst-timeline-2;
     z-index: 20;
 }
-
 @keyframes burst2_frame_21 {
-    0%, 30.882% { opacity: 0; visibility: hidden; }
-    30.883%, 35% { opacity: 1; visibility: visible; }
-    35.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 32.812% { opacity: 0; visibility: hidden; }
+    32.813%, 38% { opacity: 1; visibility: visible; }
+    38.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-21 {
     animation: burst2_frame_21 both;
     animation-timeline: --burst-timeline-2;
     z-index: 21;
 }
-
 @keyframes burst2_frame_22 {
-    0%, 32.353% { opacity: 0; visibility: hidden; }
-    32.354%, 37% { opacity: 1; visibility: visible; }
-    37.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 34.375% { opacity: 0; visibility: hidden; }
+    34.376%, 39% { opacity: 1; visibility: visible; }
+    39.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-22 {
     animation: burst2_frame_22 both;
     animation-timeline: --burst-timeline-2;
     z-index: 22;
 }
-
 @keyframes burst2_frame_23 {
-    0%, 33.824% { opacity: 0; visibility: hidden; }
-    33.825%, 38% { opacity: 1; visibility: visible; }
-    38.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 35.938% { opacity: 0; visibility: hidden; }
+    35.939%, 41% { opacity: 1; visibility: visible; }
+    41.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-23 {
     animation: burst2_frame_23 both;
     animation-timeline: --burst-timeline-2;
     z-index: 23;
 }
-
 @keyframes burst2_frame_24 {
-    0%, 35.294% { opacity: 0; visibility: hidden; }
-    35.295%, 40% { opacity: 1; visibility: visible; }
-    40.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 37.5% { opacity: 0; visibility: hidden; }
+    37.501%, 42% { opacity: 1; visibility: visible; }
+    42.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-24 {
     animation: burst2_frame_24 both;
     animation-timeline: --burst-timeline-2;
     z-index: 24;
 }
-
 @keyframes burst2_frame_25 {
-    0%, 36.765% { opacity: 0; visibility: hidden; }
-    36.766%, 41% { opacity: 1; visibility: visible; }
-    41.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 39.062% { opacity: 0; visibility: hidden; }
+    39.063%, 44% { opacity: 1; visibility: visible; }
+    44.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-25 {
     animation: burst2_frame_25 both;
     animation-timeline: --burst-timeline-2;
     z-index: 25;
 }
-
 @keyframes burst2_frame_26 {
-    0%, 38.235% { opacity: 0; visibility: hidden; }
-    38.236%, 43% { opacity: 1; visibility: visible; }
-    43.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 40.625% { opacity: 0; visibility: hidden; }
+    40.626%, 45% { opacity: 1; visibility: visible; }
+    45.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-26 {
     animation: burst2_frame_26 both;
     animation-timeline: --burst-timeline-2;
     z-index: 26;
 }
-
 @keyframes burst2_frame_27 {
-    0%, 39.706% { opacity: 0; visibility: hidden; }
-    39.707%, 44% { opacity: 1; visibility: visible; }
-    44.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 42.188% { opacity: 0; visibility: hidden; }
+    42.189%, 47% { opacity: 1; visibility: visible; }
+    47.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-27 {
     animation: burst2_frame_27 both;
     animation-timeline: --burst-timeline-2;
     z-index: 27;
 }
-
 @keyframes burst2_frame_28 {
-    0%, 41.176% { opacity: 0; visibility: hidden; }
-    41.177%, 46% { opacity: 1; visibility: visible; }
-    46.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 43.75% { opacity: 0; visibility: hidden; }
+    43.751%, 48% { opacity: 1; visibility: visible; }
+    48.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-28 {
     animation: burst2_frame_28 both;
     animation-timeline: --burst-timeline-2;
     z-index: 28;
 }
-
 @keyframes burst2_frame_29 {
-    0%, 42.647% { opacity: 0; visibility: hidden; }
-    42.648%, 47% { opacity: 1; visibility: visible; }
-    47.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 45.312% { opacity: 0; visibility: hidden; }
+    45.313%, 50% { opacity: 1; visibility: visible; }
+    50.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-29 {
     animation: burst2_frame_29 both;
     animation-timeline: --burst-timeline-2;
     z-index: 29;
 }
-
 @keyframes burst2_frame_30 {
-    0%, 44.118% { opacity: 0; visibility: hidden; }
-    44.119%, 49% { opacity: 1; visibility: visible; }
-    49.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 46.875% { opacity: 0; visibility: hidden; }
+    46.876%, 52% { opacity: 1; visibility: visible; }
+    52.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-30 {
     animation: burst2_frame_30 both;
     animation-timeline: --burst-timeline-2;
     z-index: 30;
 }
-
 @keyframes burst2_frame_31 {
-    0%, 45.588% { opacity: 0; visibility: hidden; }
-    45.589%, 50% { opacity: 1; visibility: visible; }
-    50.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 48.438% { opacity: 0; visibility: hidden; }
+    48.439%, 53% { opacity: 1; visibility: visible; }
+    53.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-31 {
     animation: burst2_frame_31 both;
     animation-timeline: --burst-timeline-2;
     z-index: 31;
 }
-
 @keyframes burst2_frame_32 {
-    0%, 47.059% { opacity: 0; visibility: hidden; }
-    47.06%, 51% { opacity: 1; visibility: visible; }
-    51.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 50% { opacity: 0; visibility: hidden; }
+    50.001%, 55% { opacity: 1; visibility: visible; }
+    55.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-32 {
     animation: burst2_frame_32 both;
     animation-timeline: --burst-timeline-2;
     z-index: 32;
 }
-
 @keyframes burst2_frame_33 {
-    0%, 48.529% { opacity: 0; visibility: hidden; }
-    48.53%, 53% { opacity: 1; visibility: visible; }
-    53.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 51.562% { opacity: 0; visibility: hidden; }
+    51.563%, 56% { opacity: 1; visibility: visible; }
+    56.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-33 {
     animation: burst2_frame_33 both;
     animation-timeline: --burst-timeline-2;
     z-index: 33;
 }
-
 @keyframes burst2_frame_34 {
-    0%, 50% { opacity: 0; visibility: hidden; }
-    50.001%, 54% { opacity: 1; visibility: visible; }
-    54.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 53.125% { opacity: 0; visibility: hidden; }
+    53.126%, 58% { opacity: 1; visibility: visible; }
+    58.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-34 {
     animation: burst2_frame_34 both;
     animation-timeline: --burst-timeline-2;
     z-index: 34;
 }
-
 @keyframes burst2_frame_35 {
-    0%, 51.471% { opacity: 0; visibility: hidden; }
-    51.472%, 56% { opacity: 1; visibility: visible; }
-    56.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 54.688% { opacity: 0; visibility: hidden; }
+    54.689%, 59% { opacity: 1; visibility: visible; }
+    59.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-35 {
     animation: burst2_frame_35 both;
     animation-timeline: --burst-timeline-2;
     z-index: 35;
 }
-
 @keyframes burst2_frame_36 {
-    0%, 52.941% { opacity: 0; visibility: hidden; }
-    52.942%, 57% { opacity: 1; visibility: visible; }
-    57.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 56.25% { opacity: 0; visibility: hidden; }
+    56.251%, 61% { opacity: 1; visibility: visible; }
+    61.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-36 {
     animation: burst2_frame_36 both;
     animation-timeline: --burst-timeline-2;
     z-index: 36;
 }
-
 @keyframes burst2_frame_37 {
-    0%, 54.412% { opacity: 0; visibility: hidden; }
-    54.413%, 59% { opacity: 1; visibility: visible; }
-    59.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 57.812% { opacity: 0; visibility: hidden; }
+    57.813%, 62% { opacity: 1; visibility: visible; }
+    62.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-37 {
     animation: burst2_frame_37 both;
     animation-timeline: --burst-timeline-2;
     z-index: 37;
 }
-
 @keyframes burst2_frame_38 {
-    0%, 55.882% { opacity: 0; visibility: hidden; }
-    55.883%, 60% { opacity: 1; visibility: visible; }
-    60.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 59.375% { opacity: 0; visibility: hidden; }
+    59.376%, 64% { opacity: 1; visibility: visible; }
+    64.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-38 {
     animation: burst2_frame_38 both;
     animation-timeline: --burst-timeline-2;
     z-index: 38;
 }
-
 @keyframes burst2_frame_39 {
-    0%, 57.353% { opacity: 0; visibility: hidden; }
-    57.354%, 62% { opacity: 1; visibility: visible; }
-    62.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 60.938% { opacity: 0; visibility: hidden; }
+    60.939%, 66% { opacity: 1; visibility: visible; }
+    66.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-39 {
     animation: burst2_frame_39 both;
     animation-timeline: --burst-timeline-2;
     z-index: 39;
 }
-
 @keyframes burst2_frame_40 {
-    0%, 58.824% { opacity: 0; visibility: hidden; }
-    58.825%, 63% { opacity: 1; visibility: visible; }
-    63.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 62.5% { opacity: 0; visibility: hidden; }
+    62.501%, 67% { opacity: 1; visibility: visible; }
+    67.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-40 {
     animation: burst2_frame_40 both;
     animation-timeline: --burst-timeline-2;
     z-index: 40;
 }
-
 @keyframes burst2_frame_41 {
-    0%, 60.294% { opacity: 0; visibility: hidden; }
-    60.295%, 65% { opacity: 1; visibility: visible; }
-    65.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 64.062% { opacity: 0; visibility: hidden; }
+    64.063%, 69% { opacity: 1; visibility: visible; }
+    69.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-41 {
     animation: burst2_frame_41 both;
     animation-timeline: --burst-timeline-2;
     z-index: 41;
 }
-
 @keyframes burst2_frame_42 {
-    0%, 61.765% { opacity: 0; visibility: hidden; }
-    61.766%, 66% { opacity: 1; visibility: visible; }
-    66.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 65.625% { opacity: 0; visibility: hidden; }
+    65.626%, 70% { opacity: 1; visibility: visible; }
+    70.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-42 {
     animation: burst2_frame_42 both;
     animation-timeline: --burst-timeline-2;
     z-index: 42;
 }
-
 @keyframes burst2_frame_43 {
-    0%, 63.235% { opacity: 0; visibility: hidden; }
-    63.236%, 68% { opacity: 1; visibility: visible; }
-    68.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 67.188% { opacity: 0; visibility: hidden; }
+    67.189%, 72% { opacity: 1; visibility: visible; }
+    72.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-43 {
     animation: burst2_frame_43 both;
     animation-timeline: --burst-timeline-2;
     z-index: 43;
 }
-
 @keyframes burst2_frame_44 {
-    0%, 64.706% { opacity: 0; visibility: hidden; }
-    64.707%, 69% { opacity: 1; visibility: visible; }
-    69.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 68.75% { opacity: 0; visibility: hidden; }
+    68.751%, 73% { opacity: 1; visibility: visible; }
+    73.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-44 {
     animation: burst2_frame_44 both;
     animation-timeline: --burst-timeline-2;
     z-index: 44;
 }
-
 @keyframes burst2_frame_45 {
-    0%, 66.176% { opacity: 0; visibility: hidden; }
-    66.177%, 71% { opacity: 1; visibility: visible; }
-    71.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 70.312% { opacity: 0; visibility: hidden; }
+    70.313%, 75% { opacity: 1; visibility: visible; }
+    75.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-45 {
     animation: burst2_frame_45 both;
     animation-timeline: --burst-timeline-2;
     z-index: 45;
 }
-
 @keyframes burst2_frame_46 {
-    0%, 67.647% { opacity: 0; visibility: hidden; }
-    67.648%, 72% { opacity: 1; visibility: visible; }
-    72.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 71.875% { opacity: 0; visibility: hidden; }
+    71.876%, 77% { opacity: 1; visibility: visible; }
+    77.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-46 {
     animation: burst2_frame_46 both;
     animation-timeline: --burst-timeline-2;
     z-index: 46;
 }
-
 @keyframes burst2_frame_47 {
-    0%, 69.118% { opacity: 0; visibility: hidden; }
-    69.119%, 74% { opacity: 1; visibility: visible; }
-    74.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 73.438% { opacity: 0; visibility: hidden; }
+    73.439%, 78% { opacity: 1; visibility: visible; }
+    78.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-47 {
     animation: burst2_frame_47 both;
     animation-timeline: --burst-timeline-2;
     z-index: 47;
 }
-
 @keyframes burst2_frame_48 {
-    0%, 70.588% { opacity: 0; visibility: hidden; }
-    70.589%, 75% { opacity: 1; visibility: visible; }
-    75.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 75% { opacity: 0; visibility: hidden; }
+    75.001%, 80% { opacity: 1; visibility: visible; }
+    80.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-48 {
     animation: burst2_frame_48 both;
     animation-timeline: --burst-timeline-2;
     z-index: 48;
 }
-
 @keyframes burst2_frame_49 {
-    0%, 72.059% { opacity: 0; visibility: hidden; }
-    72.06%, 76% { opacity: 1; visibility: visible; }
-    76.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 76.562% { opacity: 0; visibility: hidden; }
+    76.563%, 81% { opacity: 1; visibility: visible; }
+    81.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-49 {
     animation: burst2_frame_49 both;
     animation-timeline: --burst-timeline-2;
     z-index: 49;
 }
-
 @keyframes burst2_frame_50 {
-    0%, 73.529% { opacity: 0; visibility: hidden; }
-    73.53%, 78% { opacity: 1; visibility: visible; }
-    78.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 78.125% { opacity: 0; visibility: hidden; }
+    78.126%, 83% { opacity: 1; visibility: visible; }
+    83.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-50 {
     animation: burst2_frame_50 both;
     animation-timeline: --burst-timeline-2;
     z-index: 50;
 }
-
 @keyframes burst2_frame_51 {
-    0%, 75% { opacity: 0; visibility: hidden; }
-    75.001%, 79% { opacity: 1; visibility: visible; }
-    79.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 79.688% { opacity: 0; visibility: hidden; }
+    79.689%, 84% { opacity: 1; visibility: visible; }
+    84.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-51 {
     animation: burst2_frame_51 both;
     animation-timeline: --burst-timeline-2;
     z-index: 51;
 }
-
 @keyframes burst2_frame_52 {
-    0%, 76.471% { opacity: 0; visibility: hidden; }
-    76.472%, 81% { opacity: 1; visibility: visible; }
-    81.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 81.25% { opacity: 0; visibility: hidden; }
+    81.251%, 86% { opacity: 1; visibility: visible; }
+    86.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-52 {
     animation: burst2_frame_52 both;
     animation-timeline: --burst-timeline-2;
     z-index: 52;
 }
-
 @keyframes burst2_frame_53 {
-    0%, 77.941% { opacity: 0; visibility: hidden; }
-    77.942%, 82% { opacity: 1; visibility: visible; }
-    82.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 82.812% { opacity: 0; visibility: hidden; }
+    82.813%, 88% { opacity: 1; visibility: visible; }
+    88.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-53 {
     animation: burst2_frame_53 both;
     animation-timeline: --burst-timeline-2;
     z-index: 53;
 }
-
 @keyframes burst2_frame_54 {
-    0%, 79.412% { opacity: 0; visibility: hidden; }
-    79.413%, 84% { opacity: 1; visibility: visible; }
-    84.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 84.375% { opacity: 0; visibility: hidden; }
+    84.376%, 89% { opacity: 1; visibility: visible; }
+    89.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-54 {
     animation: burst2_frame_54 both;
     animation-timeline: --burst-timeline-2;
     z-index: 54;
 }
-
 @keyframes burst2_frame_55 {
-    0%, 80.882% { opacity: 0; visibility: hidden; }
-    80.883%, 85% { opacity: 1; visibility: visible; }
-    85.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 85.938% { opacity: 0; visibility: hidden; }
+    85.939%, 91% { opacity: 1; visibility: visible; }
+    91.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-55 {
     animation: burst2_frame_55 both;
     animation-timeline: --burst-timeline-2;
     z-index: 55;
 }
-
 @keyframes burst2_frame_56 {
-    0%, 82.353% { opacity: 0; visibility: hidden; }
-    82.354%, 87% { opacity: 1; visibility: visible; }
-    87.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 87.5% { opacity: 0; visibility: hidden; }
+    87.501%, 92% { opacity: 1; visibility: visible; }
+    92.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-56 {
     animation: burst2_frame_56 both;
     animation-timeline: --burst-timeline-2;
     z-index: 56;
 }
-
 @keyframes burst2_frame_57 {
-    0%, 83.824% { opacity: 0; visibility: hidden; }
-    83.825%, 88% { opacity: 1; visibility: visible; }
-    88.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 89.062% { opacity: 0; visibility: hidden; }
+    89.063%, 94% { opacity: 1; visibility: visible; }
+    94.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-57 {
     animation: burst2_frame_57 both;
     animation-timeline: --burst-timeline-2;
     z-index: 57;
 }
-
 @keyframes burst2_frame_58 {
-    0%, 85.294% { opacity: 0; visibility: hidden; }
-    85.295%, 90% { opacity: 1; visibility: visible; }
-    90.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 90.625% { opacity: 0; visibility: hidden; }
+    90.626%, 95% { opacity: 1; visibility: visible; }
+    95.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-58 {
     animation: burst2_frame_58 both;
     animation-timeline: --burst-timeline-2;
     z-index: 58;
 }
-
 @keyframes burst2_frame_59 {
-    0%, 86.765% { opacity: 0; visibility: hidden; }
-    86.766%, 91% { opacity: 1; visibility: visible; }
-    91.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 92.188% { opacity: 0; visibility: hidden; }
+    92.189%, 97% { opacity: 1; visibility: visible; }
+    97.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-59 {
     animation: burst2_frame_59 both;
     animation-timeline: --burst-timeline-2;
     z-index: 59;
 }
-
 @keyframes burst2_frame_60 {
-    0%, 88.235% { opacity: 0; visibility: hidden; }
-    88.236%, 93% { opacity: 1; visibility: visible; }
-    93.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 93.75% { opacity: 0; visibility: hidden; }
+    93.751%, 98% { opacity: 1; visibility: visible; }
+    98.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-60 {
     animation: burst2_frame_60 both;
     animation-timeline: --burst-timeline-2;
     z-index: 60;
 }
-
 @keyframes burst2_frame_61 {
-    0%, 89.706% { opacity: 0; visibility: hidden; }
-    89.707%, 94% { opacity: 1; visibility: visible; }
-    94.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 95.312% { opacity: 0; visibility: hidden; }
+    95.313%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-61 {
     animation: burst2_frame_61 both;
     animation-timeline: --burst-timeline-2;
     z-index: 61;
 }
-
 @keyframes burst2_frame_62 {
-    0%, 91.176% { opacity: 0; visibility: hidden; }
-    91.177%, 96% { opacity: 1; visibility: visible; }
-    96.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 96.875% { opacity: 0; visibility: hidden; }
+    96.876%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst2-img-62 {
     animation: burst2_frame_62 both;
     animation-timeline: --burst-timeline-2;
     z-index: 62;
 }
-
 @keyframes burst2_frame_63 {
-    0%, 92.647% { opacity: 0; visibility: hidden; }
-    92.648%, 97% { opacity: 1; visibility: visible; }
-    97.001%, 100% { opacity: 0; visibility: hidden; }
+    0%, 98.438% { opacity: 0; visibility: hidden; }
+    98.439%, 100% { opacity: 1; visibility: visible; }
 }
 .burst2-img-63 {
     animation: burst2_frame_63 both;
@@ -3296,63 +3232,13 @@ html {
     z-index: 63;
 }
 
-@keyframes burst2_frame_64 {
-    0%, 94.118% { opacity: 0; visibility: hidden; }
-    94.119%, 99% { opacity: 1; visibility: visible; }
-    99.001%, 100% { opacity: 0; visibility: hidden; }
-}
-.burst2-img-64 {
-    animation: burst2_frame_64 both;
-    animation-timeline: --burst-timeline-2;
-    z-index: 64;
-}
-
-@keyframes burst2_frame_65 {
-    0%, 95.588% { opacity: 0; visibility: hidden; }
-    95.589%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
-}
-.burst2-img-65 {
-    animation: burst2_frame_65 both;
-    animation-timeline: --burst-timeline-2;
-    z-index: 65;
-}
-
-@keyframes burst2_frame_66 {
-    0%, 97.059% { opacity: 0; visibility: hidden; }
-    97.06%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
-}
-.burst2-img-66 {
-    animation: burst2_frame_66 both;
-    animation-timeline: --burst-timeline-2;
-    z-index: 66;
-}
-
-@keyframes burst2_frame_67 {
-    0%, 98.529% { opacity: 0; visibility: hidden; }
-    98.53%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
-}
-.burst2-img-67 {
-    animation: burst2_frame_67 both;
-    animation-timeline: --burst-timeline-2;
-    z-index: 67;
-}
-
-
-=======
->>>>>>> 9c67eb6798a535de9a768bb859b880c6b1ba7746
-
 /* BURST SEQUENCE 3 */
 .burst-section-3 {
     position: relative;
     view-timeline-name: --burst-timeline-3;
 }
-
 @keyframes burst3_frame_0 {
-    0%, 0% { opacity: 0; visibility: hidden; }
-    0.001%, 3% { opacity: 1; visibility: visible; }
+    0%, 3% { opacity: 1; visibility: visible; }
     3.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst3-img-0 {
@@ -3360,7 +3246,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 0;
 }
-
 @keyframes burst3_frame_1 {
     0%, 1.124% { opacity: 0; visibility: hidden; }
     1.125%, 4% { opacity: 1; visibility: visible; }
@@ -3371,7 +3256,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 1;
 }
-
 @keyframes burst3_frame_2 {
     0%, 2.247% { opacity: 0; visibility: hidden; }
     2.248%, 6% { opacity: 1; visibility: visible; }
@@ -3382,7 +3266,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 2;
 }
-
 @keyframes burst3_frame_3 {
     0%, 3.371% { opacity: 0; visibility: hidden; }
     3.372%, 7% { opacity: 1; visibility: visible; }
@@ -3393,7 +3276,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 3;
 }
-
 @keyframes burst3_frame_4 {
     0%, 4.494% { opacity: 0; visibility: hidden; }
     4.495%, 8% { opacity: 1; visibility: visible; }
@@ -3404,7 +3286,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 4;
 }
-
 @keyframes burst3_frame_5 {
     0%, 5.618% { opacity: 0; visibility: hidden; }
     5.619%, 9% { opacity: 1; visibility: visible; }
@@ -3415,7 +3296,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 5;
 }
-
 @keyframes burst3_frame_6 {
     0%, 6.742% { opacity: 0; visibility: hidden; }
     6.743%, 10% { opacity: 1; visibility: visible; }
@@ -3426,7 +3306,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 6;
 }
-
 @keyframes burst3_frame_7 {
     0%, 7.865% { opacity: 0; visibility: hidden; }
     7.866%, 11% { opacity: 1; visibility: visible; }
@@ -3437,7 +3316,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 7;
 }
-
 @keyframes burst3_frame_8 {
     0%, 8.989% { opacity: 0; visibility: hidden; }
     8.99%, 12% { opacity: 1; visibility: visible; }
@@ -3448,7 +3326,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 8;
 }
-
 @keyframes burst3_frame_9 {
     0%, 10.112% { opacity: 0; visibility: hidden; }
     10.113%, 13% { opacity: 1; visibility: visible; }
@@ -3459,7 +3336,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 9;
 }
-
 @keyframes burst3_frame_10 {
     0%, 11.236% { opacity: 0; visibility: hidden; }
     11.237%, 15% { opacity: 1; visibility: visible; }
@@ -3470,7 +3346,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 10;
 }
-
 @keyframes burst3_frame_11 {
     0%, 12.36% { opacity: 0; visibility: hidden; }
     12.361%, 16% { opacity: 1; visibility: visible; }
@@ -3481,7 +3356,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 11;
 }
-
 @keyframes burst3_frame_12 {
     0%, 13.483% { opacity: 0; visibility: hidden; }
     13.484%, 17% { opacity: 1; visibility: visible; }
@@ -3492,7 +3366,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 12;
 }
-
 @keyframes burst3_frame_13 {
     0%, 14.607% { opacity: 0; visibility: hidden; }
     14.608%, 18% { opacity: 1; visibility: visible; }
@@ -3503,7 +3376,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 13;
 }
-
 @keyframes burst3_frame_14 {
     0%, 15.73% { opacity: 0; visibility: hidden; }
     15.731%, 19% { opacity: 1; visibility: visible; }
@@ -3514,7 +3386,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 14;
 }
-
 @keyframes burst3_frame_15 {
     0%, 16.854% { opacity: 0; visibility: hidden; }
     16.855%, 20% { opacity: 1; visibility: visible; }
@@ -3525,7 +3396,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 15;
 }
-
 @keyframes burst3_frame_16 {
     0%, 17.978% { opacity: 0; visibility: hidden; }
     17.979%, 21% { opacity: 1; visibility: visible; }
@@ -3536,7 +3406,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 16;
 }
-
 @keyframes burst3_frame_17 {
     0%, 19.101% { opacity: 0; visibility: hidden; }
     19.102%, 22% { opacity: 1; visibility: visible; }
@@ -3547,7 +3416,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 17;
 }
-
 @keyframes burst3_frame_18 {
     0%, 20.225% { opacity: 0; visibility: hidden; }
     20.226%, 24% { opacity: 1; visibility: visible; }
@@ -3558,7 +3426,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 18;
 }
-
 @keyframes burst3_frame_19 {
     0%, 21.348% { opacity: 0; visibility: hidden; }
     21.349%, 25% { opacity: 1; visibility: visible; }
@@ -3569,7 +3436,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 19;
 }
-
 @keyframes burst3_frame_20 {
     0%, 22.472% { opacity: 0; visibility: hidden; }
     22.473%, 26% { opacity: 1; visibility: visible; }
@@ -3580,7 +3446,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 20;
 }
-
 @keyframes burst3_frame_21 {
     0%, 23.596% { opacity: 0; visibility: hidden; }
     23.597%, 27% { opacity: 1; visibility: visible; }
@@ -3591,7 +3456,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 21;
 }
-
 @keyframes burst3_frame_22 {
     0%, 24.719% { opacity: 0; visibility: hidden; }
     24.72%, 28% { opacity: 1; visibility: visible; }
@@ -3602,7 +3466,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 22;
 }
-
 @keyframes burst3_frame_23 {
     0%, 25.843% { opacity: 0; visibility: hidden; }
     25.844%, 29% { opacity: 1; visibility: visible; }
@@ -3613,7 +3476,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 23;
 }
-
 @keyframes burst3_frame_24 {
     0%, 26.966% { opacity: 0; visibility: hidden; }
     26.967%, 30% { opacity: 1; visibility: visible; }
@@ -3624,7 +3486,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 24;
 }
-
 @keyframes burst3_frame_25 {
     0%, 28.09% { opacity: 0; visibility: hidden; }
     28.091%, 31% { opacity: 1; visibility: visible; }
@@ -3635,7 +3496,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 25;
 }
-
 @keyframes burst3_frame_26 {
     0%, 29.213% { opacity: 0; visibility: hidden; }
     29.214%, 33% { opacity: 1; visibility: visible; }
@@ -3646,7 +3506,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 26;
 }
-
 @keyframes burst3_frame_27 {
     0%, 30.337% { opacity: 0; visibility: hidden; }
     30.338%, 34% { opacity: 1; visibility: visible; }
@@ -3657,7 +3516,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 27;
 }
-
 @keyframes burst3_frame_28 {
     0%, 31.461% { opacity: 0; visibility: hidden; }
     31.462%, 35% { opacity: 1; visibility: visible; }
@@ -3668,7 +3526,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 28;
 }
-
 @keyframes burst3_frame_29 {
     0%, 32.584% { opacity: 0; visibility: hidden; }
     32.585%, 36% { opacity: 1; visibility: visible; }
@@ -3679,7 +3536,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 29;
 }
-
 @keyframes burst3_frame_30 {
     0%, 33.708% { opacity: 0; visibility: hidden; }
     33.709%, 37% { opacity: 1; visibility: visible; }
@@ -3690,7 +3546,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 30;
 }
-
 @keyframes burst3_frame_31 {
     0%, 34.831% { opacity: 0; visibility: hidden; }
     34.832%, 38% { opacity: 1; visibility: visible; }
@@ -3701,7 +3556,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 31;
 }
-
 @keyframes burst3_frame_32 {
     0%, 35.955% { opacity: 0; visibility: hidden; }
     35.956%, 39% { opacity: 1; visibility: visible; }
@@ -3712,7 +3566,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 32;
 }
-
 @keyframes burst3_frame_33 {
     0%, 37.079% { opacity: 0; visibility: hidden; }
     37.08%, 40% { opacity: 1; visibility: visible; }
@@ -3723,7 +3576,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 33;
 }
-
 @keyframes burst3_frame_34 {
     0%, 38.202% { opacity: 0; visibility: hidden; }
     38.203%, 42% { opacity: 1; visibility: visible; }
@@ -3734,7 +3586,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 34;
 }
-
 @keyframes burst3_frame_35 {
     0%, 39.326% { opacity: 0; visibility: hidden; }
     39.327%, 43% { opacity: 1; visibility: visible; }
@@ -3745,7 +3596,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 35;
 }
-
 @keyframes burst3_frame_36 {
     0%, 40.449% { opacity: 0; visibility: hidden; }
     40.45%, 44% { opacity: 1; visibility: visible; }
@@ -3756,7 +3606,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 36;
 }
-
 @keyframes burst3_frame_37 {
     0%, 41.573% { opacity: 0; visibility: hidden; }
     41.574%, 45% { opacity: 1; visibility: visible; }
@@ -3767,7 +3616,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 37;
 }
-
 @keyframes burst3_frame_38 {
     0%, 42.697% { opacity: 0; visibility: hidden; }
     42.698%, 46% { opacity: 1; visibility: visible; }
@@ -3778,7 +3626,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 38;
 }
-
 @keyframes burst3_frame_39 {
     0%, 43.82% { opacity: 0; visibility: hidden; }
     43.821%, 47% { opacity: 1; visibility: visible; }
@@ -3789,7 +3636,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 39;
 }
-
 @keyframes burst3_frame_40 {
     0%, 44.944% { opacity: 0; visibility: hidden; }
     44.945%, 48% { opacity: 1; visibility: visible; }
@@ -3800,7 +3646,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 40;
 }
-
 @keyframes burst3_frame_41 {
     0%, 46.067% { opacity: 0; visibility: hidden; }
     46.068%, 49% { opacity: 1; visibility: visible; }
@@ -3811,7 +3656,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 41;
 }
-
 @keyframes burst3_frame_42 {
     0%, 47.191% { opacity: 0; visibility: hidden; }
     47.192%, 51% { opacity: 1; visibility: visible; }
@@ -3822,7 +3666,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 42;
 }
-
 @keyframes burst3_frame_43 {
     0%, 48.315% { opacity: 0; visibility: hidden; }
     48.316%, 52% { opacity: 1; visibility: visible; }
@@ -3833,7 +3676,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 43;
 }
-
 @keyframes burst3_frame_44 {
     0%, 49.438% { opacity: 0; visibility: hidden; }
     49.439%, 53% { opacity: 1; visibility: visible; }
@@ -3844,7 +3686,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 44;
 }
-
 @keyframes burst3_frame_45 {
     0%, 50.562% { opacity: 0; visibility: hidden; }
     50.563%, 54% { opacity: 1; visibility: visible; }
@@ -3855,7 +3696,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 45;
 }
-
 @keyframes burst3_frame_46 {
     0%, 51.685% { opacity: 0; visibility: hidden; }
     51.686%, 55% { opacity: 1; visibility: visible; }
@@ -3866,7 +3706,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 46;
 }
-
 @keyframes burst3_frame_47 {
     0%, 52.809% { opacity: 0; visibility: hidden; }
     52.81%, 56% { opacity: 1; visibility: visible; }
@@ -3877,7 +3716,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 47;
 }
-
 @keyframes burst3_frame_48 {
     0%, 53.933% { opacity: 0; visibility: hidden; }
     53.934%, 57% { opacity: 1; visibility: visible; }
@@ -3888,7 +3726,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 48;
 }
-
 @keyframes burst3_frame_49 {
     0%, 55.056% { opacity: 0; visibility: hidden; }
     55.057%, 58% { opacity: 1; visibility: visible; }
@@ -3899,7 +3736,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 49;
 }
-
 @keyframes burst3_frame_50 {
     0%, 56.18% { opacity: 0; visibility: hidden; }
     56.181%, 60% { opacity: 1; visibility: visible; }
@@ -3910,7 +3746,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 50;
 }
-
 @keyframes burst3_frame_51 {
     0%, 57.303% { opacity: 0; visibility: hidden; }
     57.304%, 61% { opacity: 1; visibility: visible; }
@@ -3921,7 +3756,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 51;
 }
-
 @keyframes burst3_frame_52 {
     0%, 58.427% { opacity: 0; visibility: hidden; }
     58.428%, 62% { opacity: 1; visibility: visible; }
@@ -3932,7 +3766,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 52;
 }
-
 @keyframes burst3_frame_53 {
     0%, 59.551% { opacity: 0; visibility: hidden; }
     59.552%, 63% { opacity: 1; visibility: visible; }
@@ -3943,7 +3776,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 53;
 }
-
 @keyframes burst3_frame_54 {
     0%, 60.674% { opacity: 0; visibility: hidden; }
     60.675%, 64% { opacity: 1; visibility: visible; }
@@ -3954,7 +3786,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 54;
 }
-
 @keyframes burst3_frame_55 {
     0%, 61.798% { opacity: 0; visibility: hidden; }
     61.799%, 65% { opacity: 1; visibility: visible; }
@@ -3965,7 +3796,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 55;
 }
-
 @keyframes burst3_frame_56 {
     0%, 62.921% { opacity: 0; visibility: hidden; }
     62.922%, 66% { opacity: 1; visibility: visible; }
@@ -3976,7 +3806,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 56;
 }
-
 @keyframes burst3_frame_57 {
     0%, 64.045% { opacity: 0; visibility: hidden; }
     64.046%, 67% { opacity: 1; visibility: visible; }
@@ -3987,7 +3816,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 57;
 }
-
 @keyframes burst3_frame_58 {
     0%, 65.169% { opacity: 0; visibility: hidden; }
     65.17%, 69% { opacity: 1; visibility: visible; }
@@ -3998,7 +3826,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 58;
 }
-
 @keyframes burst3_frame_59 {
     0%, 66.292% { opacity: 0; visibility: hidden; }
     66.293%, 70% { opacity: 1; visibility: visible; }
@@ -4009,7 +3836,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 59;
 }
-
 @keyframes burst3_frame_60 {
     0%, 67.416% { opacity: 0; visibility: hidden; }
     67.417%, 71% { opacity: 1; visibility: visible; }
@@ -4020,7 +3846,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 60;
 }
-
 @keyframes burst3_frame_61 {
     0%, 68.539% { opacity: 0; visibility: hidden; }
     68.54%, 72% { opacity: 1; visibility: visible; }
@@ -4031,7 +3856,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 61;
 }
-
 @keyframes burst3_frame_62 {
     0%, 69.663% { opacity: 0; visibility: hidden; }
     69.664%, 73% { opacity: 1; visibility: visible; }
@@ -4042,7 +3866,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 62;
 }
-
 @keyframes burst3_frame_63 {
     0%, 70.787% { opacity: 0; visibility: hidden; }
     70.788%, 74% { opacity: 1; visibility: visible; }
@@ -4053,7 +3876,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 63;
 }
-
 @keyframes burst3_frame_64 {
     0%, 71.91% { opacity: 0; visibility: hidden; }
     71.911%, 75% { opacity: 1; visibility: visible; }
@@ -4064,7 +3886,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 64;
 }
-
 @keyframes burst3_frame_65 {
     0%, 73.034% { opacity: 0; visibility: hidden; }
     73.035%, 76% { opacity: 1; visibility: visible; }
@@ -4075,7 +3896,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 65;
 }
-
 @keyframes burst3_frame_66 {
     0%, 74.157% { opacity: 0; visibility: hidden; }
     74.158%, 78% { opacity: 1; visibility: visible; }
@@ -4086,7 +3906,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 66;
 }
-
 @keyframes burst3_frame_67 {
     0%, 75.281% { opacity: 0; visibility: hidden; }
     75.282%, 79% { opacity: 1; visibility: visible; }
@@ -4097,7 +3916,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 67;
 }
-
 @keyframes burst3_frame_68 {
     0%, 76.404% { opacity: 0; visibility: hidden; }
     76.405%, 80% { opacity: 1; visibility: visible; }
@@ -4108,7 +3926,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 68;
 }
-
 @keyframes burst3_frame_69 {
     0%, 77.528% { opacity: 0; visibility: hidden; }
     77.529%, 81% { opacity: 1; visibility: visible; }
@@ -4119,7 +3936,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 69;
 }
-
 @keyframes burst3_frame_70 {
     0%, 78.652% { opacity: 0; visibility: hidden; }
     78.653%, 82% { opacity: 1; visibility: visible; }
@@ -4130,7 +3946,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 70;
 }
-
 @keyframes burst3_frame_71 {
     0%, 79.775% { opacity: 0; visibility: hidden; }
     79.776%, 83% { opacity: 1; visibility: visible; }
@@ -4141,7 +3956,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 71;
 }
-
 @keyframes burst3_frame_72 {
     0%, 80.899% { opacity: 0; visibility: hidden; }
     80.9%, 84% { opacity: 1; visibility: visible; }
@@ -4152,7 +3966,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 72;
 }
-
 @keyframes burst3_frame_73 {
     0%, 82.022% { opacity: 0; visibility: hidden; }
     82.023%, 85% { opacity: 1; visibility: visible; }
@@ -4163,7 +3976,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 73;
 }
-
 @keyframes burst3_frame_74 {
     0%, 83.146% { opacity: 0; visibility: hidden; }
     83.147%, 87% { opacity: 1; visibility: visible; }
@@ -4174,7 +3986,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 74;
 }
-
 @keyframes burst3_frame_75 {
     0%, 84.27% { opacity: 0; visibility: hidden; }
     84.271%, 88% { opacity: 1; visibility: visible; }
@@ -4185,7 +3996,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 75;
 }
-
 @keyframes burst3_frame_76 {
     0%, 85.393% { opacity: 0; visibility: hidden; }
     85.394%, 89% { opacity: 1; visibility: visible; }
@@ -4196,7 +4006,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 76;
 }
-
 @keyframes burst3_frame_77 {
     0%, 86.517% { opacity: 0; visibility: hidden; }
     86.518%, 90% { opacity: 1; visibility: visible; }
@@ -4207,7 +4016,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 77;
 }
-
 @keyframes burst3_frame_78 {
     0%, 87.64% { opacity: 0; visibility: hidden; }
     87.641%, 91% { opacity: 1; visibility: visible; }
@@ -4218,7 +4026,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 78;
 }
-
 @keyframes burst3_frame_79 {
     0%, 88.764% { opacity: 0; visibility: hidden; }
     88.765%, 92% { opacity: 1; visibility: visible; }
@@ -4229,7 +4036,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 79;
 }
-
 @keyframes burst3_frame_80 {
     0%, 89.888% { opacity: 0; visibility: hidden; }
     89.889%, 93% { opacity: 1; visibility: visible; }
@@ -4240,7 +4046,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 80;
 }
-
 @keyframes burst3_frame_81 {
     0%, 91.011% { opacity: 0; visibility: hidden; }
     91.012%, 94% { opacity: 1; visibility: visible; }
@@ -4251,7 +4056,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 81;
 }
-
 @keyframes burst3_frame_82 {
     0%, 92.135% { opacity: 0; visibility: hidden; }
     92.136%, 96% { opacity: 1; visibility: visible; }
@@ -4262,7 +4066,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 82;
 }
-
 @keyframes burst3_frame_83 {
     0%, 93.258% { opacity: 0; visibility: hidden; }
     93.259%, 97% { opacity: 1; visibility: visible; }
@@ -4273,7 +4076,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 83;
 }
-
 @keyframes burst3_frame_84 {
     0%, 94.382% { opacity: 0; visibility: hidden; }
     94.383%, 98% { opacity: 1; visibility: visible; }
@@ -4284,7 +4086,6 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 84;
 }
-
 @keyframes burst3_frame_85 {
     0%, 95.506% { opacity: 0; visibility: hidden; }
     95.507%, 99% { opacity: 1; visibility: visible; }
@@ -4295,33 +4096,29 @@ html {
     animation-timeline: --burst-timeline-3;
     z-index: 85;
 }
-
 @keyframes burst3_frame_86 {
     0%, 96.629% { opacity: 0; visibility: hidden; }
     96.63%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
+    100%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst3-img-86 {
     animation: burst3_frame_86 both;
     animation-timeline: --burst-timeline-3;
     z-index: 86;
 }
-
 @keyframes burst3_frame_87 {
     0%, 97.753% { opacity: 0; visibility: hidden; }
     97.754%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
+    100%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst3-img-87 {
     animation: burst3_frame_87 both;
     animation-timeline: --burst-timeline-3;
     z-index: 87;
 }
-
 @keyframes burst3_frame_88 {
     0%, 98.876% { opacity: 0; visibility: hidden; }
     98.877%, 100% { opacity: 1; visibility: visible; }
-    100.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst3-img-88 {
     animation: burst3_frame_88 both;
@@ -4329,4 +4126,277 @@ html {
     z-index: 88;
 }
 
+@keyframes burst_frame_0 {
+    0%, 5% { opacity: 1; visibility: visible; }
+    5.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_1 {
+    0%, 1.818% { opacity: 0; visibility: hidden; }
+    1.819%, 7% { opacity: 1; visibility: visible; }
+    7.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_2 {
+    0%, 3.636% { opacity: 0; visibility: hidden; }
+    3.637%, 9% { opacity: 1; visibility: visible; }
+    9.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_3 {
+    0%, 5.455% { opacity: 0; visibility: hidden; }
+    5.456%, 11% { opacity: 1; visibility: visible; }
+    11.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_4 {
+    0%, 7.273% { opacity: 0; visibility: hidden; }
+    7.274%, 13% { opacity: 1; visibility: visible; }
+    13.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_5 {
+    0%, 9.091% { opacity: 0; visibility: hidden; }
+    9.092%, 15% { opacity: 1; visibility: visible; }
+    15.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_6 {
+    0%, 10.909% { opacity: 0; visibility: hidden; }
+    10.91%, 16% { opacity: 1; visibility: visible; }
+    16.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_7 {
+    0%, 12.727% { opacity: 0; visibility: hidden; }
+    12.728%, 18% { opacity: 1; visibility: visible; }
+    18.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_8 {
+    0%, 14.545% { opacity: 0; visibility: hidden; }
+    14.546%, 20% { opacity: 1; visibility: visible; }
+    20.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_9 {
+    0%, 16.364% { opacity: 0; visibility: hidden; }
+    16.365%, 22% { opacity: 1; visibility: visible; }
+    22.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_10 {
+    0%, 18.182% { opacity: 0; visibility: hidden; }
+    18.183%, 24% { opacity: 1; visibility: visible; }
+    24.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_11 {
+    0%, 20% { opacity: 0; visibility: hidden; }
+    20.001%, 25% { opacity: 1; visibility: visible; }
+    25.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_12 {
+    0%, 21.818% { opacity: 0; visibility: hidden; }
+    21.819%, 27% { opacity: 1; visibility: visible; }
+    27.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_13 {
+    0%, 23.636% { opacity: 0; visibility: hidden; }
+    23.637%, 29% { opacity: 1; visibility: visible; }
+    29.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_14 {
+    0%, 25.455% { opacity: 0; visibility: hidden; }
+    25.456%, 31% { opacity: 1; visibility: visible; }
+    31.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_15 {
+    0%, 27.273% { opacity: 0; visibility: hidden; }
+    27.274%, 33% { opacity: 1; visibility: visible; }
+    33.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_16 {
+    0%, 29.091% { opacity: 0; visibility: hidden; }
+    29.092%, 35% { opacity: 1; visibility: visible; }
+    35.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_17 {
+    0%, 30.909% { opacity: 0; visibility: hidden; }
+    30.91%, 36% { opacity: 1; visibility: visible; }
+    36.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_18 {
+    0%, 32.727% { opacity: 0; visibility: hidden; }
+    32.728%, 38% { opacity: 1; visibility: visible; }
+    38.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_19 {
+    0%, 34.545% { opacity: 0; visibility: hidden; }
+    34.546%, 40% { opacity: 1; visibility: visible; }
+    40.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_20 {
+    0%, 36.364% { opacity: 0; visibility: hidden; }
+    36.365%, 42% { opacity: 1; visibility: visible; }
+    42.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_21 {
+    0%, 38.182% { opacity: 0; visibility: hidden; }
+    38.183%, 44% { opacity: 1; visibility: visible; }
+    44.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_22 {
+    0%, 40% { opacity: 0; visibility: hidden; }
+    40.001%, 45% { opacity: 1; visibility: visible; }
+    45.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_23 {
+    0%, 41.818% { opacity: 0; visibility: hidden; }
+    41.819%, 47% { opacity: 1; visibility: visible; }
+    47.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_24 {
+    0%, 43.636% { opacity: 0; visibility: hidden; }
+    43.637%, 49% { opacity: 1; visibility: visible; }
+    49.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_25 {
+    0%, 45.455% { opacity: 0; visibility: hidden; }
+    45.456%, 51% { opacity: 1; visibility: visible; }
+    51.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_26 {
+    0%, 47.273% { opacity: 0; visibility: hidden; }
+    47.274%, 53% { opacity: 1; visibility: visible; }
+    53.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_27 {
+    0%, 49.091% { opacity: 0; visibility: hidden; }
+    49.092%, 55% { opacity: 1; visibility: visible; }
+    55.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_28 {
+    0%, 50.909% { opacity: 0; visibility: hidden; }
+    50.91%, 56% { opacity: 1; visibility: visible; }
+    56.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_29 {
+    0%, 52.727% { opacity: 0; visibility: hidden; }
+    52.728%, 58% { opacity: 1; visibility: visible; }
+    58.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_30 {
+    0%, 54.545% { opacity: 0; visibility: hidden; }
+    54.546%, 60% { opacity: 1; visibility: visible; }
+    60.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_31 {
+    0%, 56.364% { opacity: 0; visibility: hidden; }
+    56.365%, 62% { opacity: 1; visibility: visible; }
+    62.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_32 {
+    0%, 58.182% { opacity: 0; visibility: hidden; }
+    58.183%, 64% { opacity: 1; visibility: visible; }
+    64.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_33 {
+    0%, 60% { opacity: 0; visibility: hidden; }
+    60.001%, 65% { opacity: 1; visibility: visible; }
+    65.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_34 {
+    0%, 61.818% { opacity: 0; visibility: hidden; }
+    61.819%, 67% { opacity: 1; visibility: visible; }
+    67.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_35 {
+    0%, 63.636% { opacity: 0; visibility: hidden; }
+    63.637%, 69% { opacity: 1; visibility: visible; }
+    69.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_36 {
+    0%, 65.455% { opacity: 0; visibility: hidden; }
+    65.456%, 71% { opacity: 1; visibility: visible; }
+    71.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_37 {
+    0%, 67.273% { opacity: 0; visibility: hidden; }
+    67.274%, 73% { opacity: 1; visibility: visible; }
+    73.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_38 {
+    0%, 69.091% { opacity: 0; visibility: hidden; }
+    69.092%, 75% { opacity: 1; visibility: visible; }
+    75.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_39 {
+    0%, 70.909% { opacity: 0; visibility: hidden; }
+    70.91%, 76% { opacity: 1; visibility: visible; }
+    76.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_40 {
+    0%, 72.727% { opacity: 0; visibility: hidden; }
+    72.728%, 78% { opacity: 1; visibility: visible; }
+    78.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_41 {
+    0%, 74.545% { opacity: 0; visibility: hidden; }
+    74.546%, 80% { opacity: 1; visibility: visible; }
+    80.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_42 {
+    0%, 76.364% { opacity: 0; visibility: hidden; }
+    76.365%, 82% { opacity: 1; visibility: visible; }
+    82.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_43 {
+    0%, 78.182% { opacity: 0; visibility: hidden; }
+    78.183%, 84% { opacity: 1; visibility: visible; }
+    84.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_44 {
+    0%, 80% { opacity: 0; visibility: hidden; }
+    80.001%, 85% { opacity: 1; visibility: visible; }
+    85.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_45 {
+    0%, 81.818% { opacity: 0; visibility: hidden; }
+    81.819%, 87% { opacity: 1; visibility: visible; }
+    87.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_46 {
+    0%, 83.636% { opacity: 0; visibility: hidden; }
+    83.637%, 89% { opacity: 1; visibility: visible; }
+    89.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_47 {
+    0%, 85.455% { opacity: 0; visibility: hidden; }
+    85.456%, 91% { opacity: 1; visibility: visible; }
+    91.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_48 {
+    0%, 87.273% { opacity: 0; visibility: hidden; }
+    87.274%, 93% { opacity: 1; visibility: visible; }
+    93.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_49 {
+    0%, 89.091% { opacity: 0; visibility: hidden; }
+    89.092%, 95% { opacity: 1; visibility: visible; }
+    95.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_50 {
+    0%, 90.909% { opacity: 0; visibility: hidden; }
+    90.91%, 96% { opacity: 1; visibility: visible; }
+    96.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_51 {
+    0%, 92.727% { opacity: 0; visibility: hidden; }
+    92.728%, 98% { opacity: 1; visibility: visible; }
+    98.001%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_52 {
+    0%, 94.545% { opacity: 0; visibility: hidden; }
+    94.546%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_53 {
+    0%, 96.364% { opacity: 0; visibility: hidden; }
+    96.365%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
+}
+@keyframes burst_frame_54 {
+    0%, 98.182% { opacity: 0; visibility: hidden; }
+    98.183%, 100% { opacity: 1; visibility: visible; }
+}
 
