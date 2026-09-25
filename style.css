@@ -4705,3 +4705,318 @@ html {
     z-index: 29;
 }
 
+
+/* BURST SEQUENCE 5 */
+.burst-section-5 {
+    position: relative;
+    view-timeline-name: --burst-timeline-5;
+}
+@keyframes burst5_frame_0 {
+    0%, 10% { opacity: 1; visibility: visible; }
+    10.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-0 {
+    animation: burst5_frame_0 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 0;
+}
+@keyframes burst5_frame_1 {
+    0%, 3.226% { opacity: 0; visibility: hidden; }
+    3.227%, 13% { opacity: 1; visibility: visible; }
+    13.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-1 {
+    animation: burst5_frame_1 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 1;
+}
+@keyframes burst5_frame_2 {
+    0%, 6.452% { opacity: 0; visibility: hidden; }
+    6.453%, 16% { opacity: 1; visibility: visible; }
+    16.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-2 {
+    animation: burst5_frame_2 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 2;
+}
+@keyframes burst5_frame_3 {
+    0%, 9.677% { opacity: 0; visibility: hidden; }
+    9.678%, 19% { opacity: 1; visibility: visible; }
+    19.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-3 {
+    animation: burst5_frame_3 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 3;
+}
+@keyframes burst5_frame_4 {
+    0%, 12.903% { opacity: 0; visibility: hidden; }
+    12.904%, 23% { opacity: 1; visibility: visible; }
+    23.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-4 {
+    animation: burst5_frame_4 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 4;
+}
+@keyframes burst5_frame_5 {
+    0%, 16.129% { opacity: 0; visibility: hidden; }
+    16.13%, 26% { opacity: 1; visibility: visible; }
+    26.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-5 {
+    animation: burst5_frame_5 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 5;
+}
+@keyframes burst5_frame_6 {
+    0%, 19.355% { opacity: 0; visibility: hidden; }
+    19.356%, 29% { opacity: 1; visibility: visible; }
+    29.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-6 {
+    animation: burst5_frame_6 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 6;
+}
+@keyframes burst5_frame_7 {
+    0%, 22.581% { opacity: 0; visibility: hidden; }
+    22.582%, 32% { opacity: 1; visibility: visible; }
+    32.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-7 {
+    animation: burst5_frame_7 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 7;
+}
+@keyframes burst5_frame_8 {
+    0%, 25.806% { opacity: 0; visibility: hidden; }
+    25.807%, 35% { opacity: 1; visibility: visible; }
+    35.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-8 {
+    animation: burst5_frame_8 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 8;
+}
+@keyframes burst5_frame_9 {
+    0%, 29.032% { opacity: 0; visibility: hidden; }
+    29.033%, 39% { opacity: 1; visibility: visible; }
+    39.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-9 {
+    animation: burst5_frame_9 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 9;
+}
+@keyframes burst5_frame_10 {
+    0%, 32.258% { opacity: 0; visibility: hidden; }
+    32.259%, 42% { opacity: 1; visibility: visible; }
+    42.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-10 {
+    animation: burst5_frame_10 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 10;
+}
+@keyframes burst5_frame_11 {
+    0%, 35.484% { opacity: 0; visibility: hidden; }
+    35.485%, 45% { opacity: 1; visibility: visible; }
+    45.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-11 {
+    animation: burst5_frame_11 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 11;
+}
+@keyframes burst5_frame_12 {
+    0%, 38.71% { opacity: 0; visibility: hidden; }
+    38.711%, 48% { opacity: 1; visibility: visible; }
+    48.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-12 {
+    animation: burst5_frame_12 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 12;
+}
+@keyframes burst5_frame_13 {
+    0%, 41.935% { opacity: 0; visibility: hidden; }
+    41.936%, 52% { opacity: 1; visibility: visible; }
+    52.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-13 {
+    animation: burst5_frame_13 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 13;
+}
+@keyframes burst5_frame_14 {
+    0%, 45.161% { opacity: 0; visibility: hidden; }
+    45.162%, 55% { opacity: 1; visibility: visible; }
+    55.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-14 {
+    animation: burst5_frame_14 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 14;
+}
+@keyframes burst5_frame_15 {
+    0%, 48.387% { opacity: 0; visibility: hidden; }
+    48.388%, 58% { opacity: 1; visibility: visible; }
+    58.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-15 {
+    animation: burst5_frame_15 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 15;
+}
+@keyframes burst5_frame_16 {
+    0%, 51.613% { opacity: 0; visibility: hidden; }
+    51.614%, 61% { opacity: 1; visibility: visible; }
+    61.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-16 {
+    animation: burst5_frame_16 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 16;
+}
+@keyframes burst5_frame_17 {
+    0%, 54.839% { opacity: 0; visibility: hidden; }
+    54.84%, 65% { opacity: 1; visibility: visible; }
+    65.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-17 {
+    animation: burst5_frame_17 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 17;
+}
+@keyframes burst5_frame_18 {
+    0%, 58.065% { opacity: 0; visibility: hidden; }
+    58.066%, 68% { opacity: 1; visibility: visible; }
+    68.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-18 {
+    animation: burst5_frame_18 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 18;
+}
+@keyframes burst5_frame_19 {
+    0%, 61.29% { opacity: 0; visibility: hidden; }
+    61.291%, 71% { opacity: 1; visibility: visible; }
+    71.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-19 {
+    animation: burst5_frame_19 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 19;
+}
+@keyframes burst5_frame_20 {
+    0%, 64.516% { opacity: 0; visibility: hidden; }
+    64.517%, 74% { opacity: 1; visibility: visible; }
+    74.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-20 {
+    animation: burst5_frame_20 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 20;
+}
+@keyframes burst5_frame_21 {
+    0%, 67.742% { opacity: 0; visibility: hidden; }
+    67.743%, 77% { opacity: 1; visibility: visible; }
+    77.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-21 {
+    animation: burst5_frame_21 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 21;
+}
+@keyframes burst5_frame_22 {
+    0%, 70.968% { opacity: 0; visibility: hidden; }
+    70.969%, 81% { opacity: 1; visibility: visible; }
+    81.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-22 {
+    animation: burst5_frame_22 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 22;
+}
+@keyframes burst5_frame_23 {
+    0%, 74.194% { opacity: 0; visibility: hidden; }
+    74.195%, 84% { opacity: 1; visibility: visible; }
+    84.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-23 {
+    animation: burst5_frame_23 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 23;
+}
+@keyframes burst5_frame_24 {
+    0%, 77.419% { opacity: 0; visibility: hidden; }
+    77.42%, 87% { opacity: 1; visibility: visible; }
+    87.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-24 {
+    animation: burst5_frame_24 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 24;
+}
+@keyframes burst5_frame_25 {
+    0%, 80.645% { opacity: 0; visibility: hidden; }
+    80.646%, 90% { opacity: 1; visibility: visible; }
+    90.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-25 {
+    animation: burst5_frame_25 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 25;
+}
+@keyframes burst5_frame_26 {
+    0%, 83.871% { opacity: 0; visibility: hidden; }
+    83.872%, 94% { opacity: 1; visibility: visible; }
+    94.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-26 {
+    animation: burst5_frame_26 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 26;
+}
+@keyframes burst5_frame_27 {
+    0%, 87.097% { opacity: 0; visibility: hidden; }
+    87.098%, 97% { opacity: 1; visibility: visible; }
+    97.001%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-27 {
+    animation: burst5_frame_27 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 27;
+}
+@keyframes burst5_frame_28 {
+    0%, 90.323% { opacity: 0; visibility: hidden; }
+    90.324%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-28 {
+    animation: burst5_frame_28 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 28;
+}
+@keyframes burst5_frame_29 {
+    0%, 93.548% { opacity: 0; visibility: hidden; }
+    93.549%, 100% { opacity: 1; visibility: visible; }
+    100%, 100% { opacity: 0; visibility: hidden; }
+}
+.burst5-img-29 {
+    animation: burst5_frame_29 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 29;
+}
+@keyframes burst5_frame_30 {
+    0%, 96.774% { opacity: 0; visibility: hidden; }
+    96.775%, 100% { opacity: 1; visibility: visible; }
+}
+.burst5-img-30 {
+    animation: burst5_frame_30 both;
+    animation-timeline: --burst-timeline-5;
+    z-index: 30;
+}
+
