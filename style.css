@@ -9710,3 +9710,33 @@ html {
 
 
 
+
+/* CINEMATIC BURST TEXT */
+.burst-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    
+    font-size: 6rem;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    text-shadow: 0 10px 40px rgba(0,0,0,0.9), 0 0 20px rgba(255,255,255,0.3);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    
+    animation: burstTextFade both;
+    animation-timeline: --burst-timeline;
+    animation-range: contain;
+}
+
+@keyframes burstTextFade {
+    0%, 45% { opacity: 0; filter: blur(20px); transform: translate(-50%, -50%) scale(0.8); }
+    55%, 85% { opacity: 1; filter: blur(0); transform: translate(-50%, -50%) scale(1); }
+    100% { opacity: 0; filter: blur(20px); transform: translate(-50%, -50%) scale(1.2); }
+}
+
