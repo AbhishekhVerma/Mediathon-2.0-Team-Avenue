@@ -1,3 +1,7 @@
+﻿# BPDC Mediathon
+
+**Live Website:** [View Here](https://abhishekhverma.github.io/Mediathon-2.0-Team-Avenue/)
+
 # BPDC Mediathon: Motion Portfolio
 
 A highly experimental, pure HTML/CSS photography portfolio engineered for the **BPDC Mediathon**. Built entirely without JavaScript, this project pushes the limits of modern CSS (using Scroll Timelines and 3D Transforms) to create a cinematic, interactive experience that captures the theme of **Motion** (Blur, speed, spinning, falling).
@@ -21,3 +25,4 @@ Because this uses modern CSS `animation-timeline`, please view this project in a
 1. Clone the repository.
 2. Open `index.html` in Chrome or Edge.
 3. Scroll down and experience the motion.
+
