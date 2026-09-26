@@ -4347,10 +4347,7 @@ body {
     text-shadow: 0 10px 40px rgba(0,0,0,0.9), 0 0 20px rgba(255,255,255,0.3);
     letter-spacing: 4px;
     text-transform: uppercase;
-    text-align: center;
-    white-space: nowrap;
-    
-    animation: burstTextFade both;
+    text-align: center;animation: burstTextFade both;
     animation-timeline: --burst-timeline;
     animation-range: contain;
 }
@@ -8185,10 +8182,7 @@ html {
     text-shadow: 0 10px 40px rgba(0,0,0,0.9), 0 0 20px rgba(255,255,255,0.3);
     letter-spacing: 4px;
     text-transform: uppercase;
-    text-align: center;
-    white-space: nowrap;
-    
-    animation: burstTextFade both;
+    text-align: center;animation: burstTextFade both;
     animation-timeline: --burst-timeline;
     animation-range: contain;
 }
@@ -11279,3 +11273,4 @@ html {
     color: black;
     border-color: white;
 }
+
