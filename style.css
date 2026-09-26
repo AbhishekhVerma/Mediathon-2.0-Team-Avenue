@@ -11189,3 +11189,38 @@ html {
 
 
 
+
+.burst-text-2 { animation: text-fade-2 both; animation-timeline: --burst-timeline-2; }
+.burst-text-3 { animation: text-fade-3 both; animation-timeline: --burst-timeline-3; }
+.burst-text-4 { animation: text-fade-4 both; animation-timeline: --burst-timeline-4; }
+.burst-text-5 { animation: text-fade-5 both; animation-timeline: --burst-timeline-5; }
+.burst-text-6 { animation: text-fade-6 both; animation-timeline: --burst-timeline-6; }
+
+@keyframes text-fade-2 {
+    0%, 60% { opacity: 0; transform: translate(-50%, -40%); }
+    65%, 85% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    90%, 100% { opacity: 0; transform: translate(-50%, -60%); }
+}
+
+@keyframes text-fade-3 {
+    0%, 5% { opacity: 0; transform: translate(-50%, -40%); }
+    10%, 40% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    45%, 100% { opacity: 0; transform: translate(-50%, -60%); }
+}
+
+@keyframes text-fade-4 {
+    0%, 20% { opacity: 0; transform: translate(-50%, -40%); }
+    25%, 70% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    75%, 100% { opacity: 0; transform: translate(-50%, -60%); }
+}
+
+@keyframes text-fade-5 {
+    0%, 5% { opacity: 0; transform: translate(-50%, -40%); }
+    10%, 60% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    65%, 100% { opacity: 0; transform: translate(-50%, -60%); }
+}
+
+@keyframes text-fade-6 {
+    0%, 5% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    15%, 100% { opacity: 0; transform: translate(-50%, -40%); }
+}
