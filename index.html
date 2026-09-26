@@ -373,6 +373,7 @@
   </div>
   </section>
 
+    <audio id="bg-audio" src="Audio.mp3" loop></audio>
     <script>
         // Force scroll to top on page reload
         if ('scrollRestoration' in history) {
@@ -388,10 +389,7 @@
     document.body.style.overflow = 'hidden';
 
     enterBtn.addEventListener('click', () => {
-        // Play audio immediately upon interaction
-        audio.play().catch(e => console.log("Audio play failed: ", e));
-        
-        // Fade out overlay
+        if (audio) { audio.play().catch(e => console.log("Audio play failed: ", e)); }
         overlay.style.opacity = '0';
         
         // Restore scroll after fade
@@ -538,6 +536,7 @@
     </script>
 </body>
 </html>
+
 
 
 
