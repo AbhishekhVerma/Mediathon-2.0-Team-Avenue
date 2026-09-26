@@ -162,6 +162,8 @@
         <div class='kinetic-row' style='--shift: -30vw; color: #000; font-size: clamp(10px, 2.5vw, 45px);'>BUT WHAT HAPPENS WHEN THE WORLD REFUSES TO STAY STILL?</div>
     </div>
 </section>
+<div class="cinematic-fade" style="height: 100vh; background: black; width: 100vw;"></div>
+
 
     <section class='burst-section burst-section-1'>
 <div class='sticky-bg-container'>
@@ -236,6 +238,8 @@
             </div>
         </div>
     </section>
+<div class="cinematic-fade" style="height: 100vh; background: black; width: 100vw;"></div>
+
 
     
     <!-- DOUBLE EXPOSURE GALLERY -->
@@ -419,7 +423,7 @@
         burstSections.forEach(sec => observer.observe(sec));
     });
 </script>
-    <!-- CANVAS PLAYER SCRIPT FOR PERFORMANCE -->
+        <!-- CANVAS PLAYER SCRIPT FOR PERFORMANCE -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const canvases = document.querySelectorAll('.burst-canvas');
@@ -429,7 +433,6 @@
                 const imagesDataAttr = canvas.getAttribute('data-images');
                 let imagesData = [];
                 if (imagesDataAttr === 'DYNAMIC') {
-                    // Automatically generate 1.JPG to 200.JPG
                     for (let i = 1; i <= 200; i++) {
                         imagesData.push('QuickScroll_Sequence/' + i + '.JPG');
                     }
@@ -438,7 +441,11 @@
                 }
                 const section = canvas.closest('.burst-section');
                 
-                // RAM-Friendly Cache (holds max 10 images at a time)
+                // Fixed internal canvas resolution (Web Critic suggestion)
+                canvas.width = 1920;
+                canvas.height = 1080;
+                
+                // Widen cache to 15 frames for fast scrolling (Web Critic suggestion)
                 const imageCache = new Map();
                 
                 function loadImage(index) {
@@ -449,9 +456,12 @@
                     img.src = imagesData[index];
                     imageCache.set(index, img);
                     
-                    // Nuke old images from RAM
+                    // Pre-decode for smoother rendering
+                    img.decode().catch(() => {});
+                    
+                    // Widen RAM cache cleanup distance to 15
                     for (let key of imageCache.keys()) {
-                        if (Math.abs(key - index) > 5) {
+                        if (Math.abs(key - index) > 15) {
                             imageCache.get(key).src = ""; 
                             imageCache.delete(key);
                         }
@@ -460,58 +470,69 @@
                     return img;
                 }
 
+                function drawImgToCanvas(img) {
+                    if (!img.complete || img.naturalWidth === 0) return;
+                    
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    
+                    const canvasAspect = canvas.width / canvas.height;
+                    const imgAspect = img.naturalWidth / img.naturalHeight;
+                    
+                    let drawWidth, drawHeight, offsetX, offsetY;
+                    
+                    if (canvasAspect > imgAspect) {
+                        drawWidth = canvas.width;
+                        drawHeight = canvas.width / imgAspect;
+                        offsetX = 0;
+                        offsetY = (canvas.height - drawHeight) / 2;
+                    } else {
+                        drawHeight = canvas.height;
+                        drawWidth = canvas.height * imgAspect;
+                        offsetX = (canvas.width - drawWidth) / 2;
+                        offsetY = 0;
+                    }
+                    
+                    ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+                }
+
                 // Initial Draw
                 const firstImg = loadImage(0);
-                firstImg.onload = () => {
-                    canvas.width = firstImg.width || 1920;
-                    canvas.height = firstImg.height || 1080;
-                    ctx.drawImage(firstImg, 0, 0, canvas.width, canvas.height);
-                };
+                firstImg.onload = () => drawImgToCanvas(firstImg);
 
                 function updateCanvas() {
                     const rect = section.getBoundingClientRect();
-                    // We want progress to start at 0 when the top of the section hits the top of the viewport
-                    const scrollRange = section.offsetHeight - window.innerHeight;
-                    let progress = -rect.top / scrollRange;
+                    const scrollProgress = -rect.top / (rect.height - window.innerHeight);
                     
-                    if (progress < 0) progress = 0;
-                    if (progress > 1) progress = 1;
-                    
-                    const frameIndex = Math.floor(progress * (imagesData.length - 1));
-                    const img = loadImage(frameIndex);
-                    
-                    if (img && img.complete) {
-                        if (canvas.width !== img.width && img.width > 0) canvas.width = img.width;
-                        if (canvas.height !== img.height && img.height > 0) canvas.height = img.height;
-                        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-                    } else if (img) {
-                        img.onload = () => {
-                            if (canvas.width !== img.width && img.width > 0) canvas.width = img.width;
-                            if (canvas.height !== img.height && img.height > 0) canvas.height = img.height;
-                            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                    if (scrollProgress >= 0 && scrollProgress <= 1) {
+                        const frameIndex = Math.min(
+                            imagesData.length - 1, 
+                            Math.floor(scrollProgress * imagesData.length)
+                        );
+                        
+                        const img = loadImage(frameIndex);
+                        
+                        // Preload surrounding frames
+                        for (let i = 1; i <= 3; i++) {
+                            loadImage(frameIndex + i);
+                            loadImage(frameIndex - i);
+                        }
+                        
+                        if (img && img.complete) {
+                            drawImgToCanvas(img);
+                        } else if (img) {
+                            img.onload = () => drawImgToCanvas(img);
                         }
                     }
-                    
-                    // Preload adjacent frames based on scroll direction
-                    loadImage(frameIndex + 1);
-                    loadImage(frameIndex + 2);
+                    requestAnimationFrame(updateCanvas);
                 }
-
-                // RAF Loop for smooth sync with Lenis
-                function tick() {
-                    const rect = section.getBoundingClientRect();
-                    // Only draw if section is in viewport
-                    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-                        updateCanvas();
-                    }
-                    requestAnimationFrame(tick);
-                }
-                requestAnimationFrame(tick);
+                
+                requestAnimationFrame(updateCanvas);
             });
         });
     </script>
 </body>
 </html>
+
 
 
 
