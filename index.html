@@ -373,8 +373,16 @@
   </div>
   </section>
 
-<script>
-    const audio = document.getElementById("bg-audio");
+    <script>
+        // Force scroll to top on page reload
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        const audio = document.getElementById("bg-audio");
+        const enterBtn = document.getElementById("enter-button");
+        const overlay = document.getElementById("intro-overlay");
     const enterBtn = document.getElementById("enter-button");
     const overlay = document.getElementById("intro-overlay");
 
@@ -532,6 +540,7 @@
     </script>
 </body>
 </html>
+
 
 
 
