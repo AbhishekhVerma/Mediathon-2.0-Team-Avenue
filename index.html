@@ -965,8 +965,37 @@
         }
     }, { once: true });
 </script>
+<script>
+    // MEMORY MANAGEMENT: Unload off-screen bursts to prevent iOS Safari crashes
+    document.addEventListener("DOMContentLoaded", () => {
+        const burstSections = document.querySelectorAll('.burst-section, .double-exp-section');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                // Find the sticky container holding the heavy images
+                const sticky = entry.target.querySelector('.sticky-bg-container') || entry.target.querySelector('.double-exp-sticky');
+                
+                if (sticky) {
+                    if (entry.isIntersecting) {
+                        // Restore visibility and GPU layers
+                        sticky.style.display = '';
+                    } else {
+                        // Nuke GPU layers to free iPhone RAM
+                        sticky.style.display = 'none';
+                    }
+                }
+            });
+        }, { 
+            // Trigger 1 screen height before it scrolls into view
+            rootMargin: "100% 0px" 
+        });
+
+        burstSections.forEach(sec => observer.observe(sec));
+    });
+</script>
 </body>
 </html>
+
 
 
 
