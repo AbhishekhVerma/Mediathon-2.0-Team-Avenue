@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="intro-overlay">
+    <div class="intro-content">
+        <p>BEST VIEWED ON LAPTOP</p>
+        <button id="enter-button">CLICK HERE TO CONTINUE</button>
+    </div>
+</div>
 
 <!-- KINETIC SLIT-SCAN TEXT SECTION 1 -->
 <section class='kinetic-section kinetic-section-1' style='height: 150vh; background: #ff0a0a;'>
@@ -512,30 +518,25 @@
 <audio id="bg-audio" src="Audio.mp3" preload="auto" loop></audio>
 <script>
     const audio = document.getElementById("bg-audio");
-    let hasPlayed = false;
-    
-    window.addEventListener('scroll', () => {
-        if (hasPlayed) return;
+    const enterBtn = document.getElementById("enter-button");
+    const overlay = document.getElementById("intro-overlay");
+
+    // Block scrolling until interaction
+    document.body.style.overflow = 'hidden';
+
+    enterBtn.addEventListener('click', () => {
+        // Play audio immediately upon interaction
+        audio.play().catch(e => console.log("Audio play failed: ", e));
         
-        const section = document.querySelector('.burst-section-1');
-        if (!section) return;
+        // Fade out overlay
+        overlay.style.opacity = '0';
         
-        const rect = section.getBoundingClientRect();
-        // Frame 17 out of 55 = roughly 31%
-        const scrollProgress = -rect.top / (rect.height - window.innerHeight);
-        
-        if (scrollProgress >= (17 / 55) && scrollProgress < 1) {
-            hasPlayed = true;
-            audio.play().catch(e => console.log("Autoplay requires user interaction first."));
-        }
+        // Restore scroll after fade
+        setTimeout(() => {
+            overlay.style.display = 'none';
+            document.body.style.overflow = '';
+        }, 800);
     });
-    
-    // Attempt to unlock audio on first click just in case
-    document.body.addEventListener('click', () => {
-        if (!hasPlayed) {
-            audio.play().then(() => audio.pause()).catch(e => {});
-        }
-    }, { once: true });
 </script>
 <script>
     // MEMORY MANAGEMENT: Unload off-screen bursts to prevent iOS Safari crashes
@@ -658,6 +659,7 @@
     </script>
 </body>
 </html>
+
 
 
 

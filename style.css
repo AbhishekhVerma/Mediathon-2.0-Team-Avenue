@@ -11229,3 +11229,53 @@ html {
     15%, 100% { opacity: 0; transform: translate(-50%, -40%); }
 }
 
+
+
+/* INTRO OVERLAY */
+#intro-overlay {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh;
+    background-color: #050505;
+    color: white;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 0.8s ease;
+}
+
+.intro-content {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 3rem;
+    color: #fff;
+    opacity: 0.9;
+}
+
+#enter-button {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 1rem 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+}
+
+#enter-button:hover {
+    background: white;
+    color: black;
+    border-color: white;
+}
