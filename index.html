@@ -534,25 +534,6 @@
         burstSections.forEach(sec => observer.observe(sec));
     });
 </script>
-    <!-- SMOOTH SCROLLING (LENIS) TO PREVENT JITTER -->
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script>
-        // Initialize Lenis for buttery smooth, slowed-down momentum scrolling
-        const lenis = new Lenis({
-            duration: 1.2, // High duration slows down the scroll significantly
-            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-            smooth: true,
-            mouseMultiplier: 1.0, // Halves the speed of the mouse wheel
-            smoothTouch: false,
-        });
-
-        function raf(time) {
-            lenis.raf(time);
-            requestAnimationFrame(raf);
-        }
-
-        requestAnimationFrame(raf);
-    </script>
     <!-- CANVAS PLAYER SCRIPT FOR PERFORMANCE -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -637,6 +618,7 @@
     </script>
 </body>
 </html>
+
 
 
 
