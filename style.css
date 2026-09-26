@@ -11219,8 +11219,8 @@ html {
 }
 
 @keyframes text-fade-6 {
-    0%, 5% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
-    15%, 100% { opacity: 0; transform: translate(-50%, -40%); }
+    0%, 25% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
+    35%, 100% { opacity: 0; transform: translate(-50%, -40%); }
 }
 
 
@@ -11273,4 +11273,5 @@ html {
     color: black;
     border-color: white;
 }
+
 
