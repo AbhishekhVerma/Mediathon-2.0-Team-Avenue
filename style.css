@@ -41,7 +41,7 @@ body {
 }
 /* BASE BURST SECTION STYLES */
 .burst-section {
-    height: 2000vh;
+    height: 3500vh;
     position: relative;
 }
 
@@ -11166,3 +11166,4 @@ html {
         letter-spacing: normal;
     }
 }
+
