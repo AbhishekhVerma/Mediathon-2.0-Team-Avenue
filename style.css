@@ -4338,7 +4338,9 @@ body {
     transform: translate(-50%, -50%);
     z-index: 100; /* Must sit above all 55 photo layers */
     
-    font-size: 6rem;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    width: 90%;
+    text-align: center;
     font-weight: 900;
     font-style: italic;
     color: white;
@@ -8174,7 +8176,9 @@ html {
     transform: translate(-50%, -50%);
     z-index: 1000;
     
-    font-size: 6rem;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    width: 90%;
+    text-align: center;
     font-weight: 900;
     font-style: italic;
     color: white;
@@ -11224,3 +11228,4 @@ html {
     0%, 5% { opacity: 0.8; filter: blur(0.5px); text-shadow: 0 0 15px rgba(255,255,255,0.5); transform: translate(-50%, -50%); }
     15%, 100% { opacity: 0; transform: translate(-50%, -40%); }
 }
+
