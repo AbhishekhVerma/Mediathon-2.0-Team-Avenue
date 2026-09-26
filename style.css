@@ -11170,3 +11170,13 @@ html {
 }
 
 
+
+.kinetic-section-1 { view-timeline-name: --kin-1; }
+.kinetic-section-2 { view-timeline-name: --kin-2; }
+.kinetic-section-3 { view-timeline-name: --kin-3; }
+.kinetic-section-4 { view-timeline-name: --kin-4; }
+
+.kinetic-section-1 .kinetic-row { animation-timeline: --kin-1; animation-range: cover 0% cover 100%; }
+.kinetic-section-2 .kinetic-row { animation-timeline: --kin-2; animation-range: cover 0% cover 100%; }
+.kinetic-section-3 .kinetic-row { animation-timeline: --kin-3; animation-range: cover 0% cover 100%; }
+.kinetic-section-4 .kinetic-row { animation-timeline: --kin-4; animation-range: cover 0% cover 100%; }
