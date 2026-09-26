@@ -41,7 +41,7 @@ body {
 }
 /* BASE BURST SECTION STYLES */
 .burst-section {
-    height: 3500vh;
+    height: 500vh;
     position: relative;
 }
 
@@ -11273,5 +11273,6 @@ html {
     color: black;
     border-color: white;
 }
+
 
 
