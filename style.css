@@ -11159,13 +11159,9 @@ html {
         transform: translateX(0) scaleX(1);
         letter-spacing: normal;
     }
-    50% {
-        transform: translateX(var(--shift)) scaleX(1.5);
-        letter-spacing: 15px;
-    }
     100% {
-        transform: translateX(0) scaleX(1);
-        letter-spacing: normal;
+        transform: translateX(var(--shift)) scaleX(2.5);
+        letter-spacing: 20px;
     }
 }
 
@@ -11180,4 +11176,5 @@ html {
 .kinetic-section-2 .kinetic-row { animation-timeline: --kin-2; animation-range: entry 100% exit 0%; }
 .kinetic-section-3 .kinetic-row { animation-timeline: --kin-3; animation-range: entry 100% exit 0%; }
 .kinetic-section-4 .kinetic-row { animation-timeline: --kin-4; animation-range: entry 100% exit 0%; }
+
 
