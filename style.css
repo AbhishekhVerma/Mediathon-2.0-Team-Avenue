@@ -64,7 +64,7 @@ body {
     background-repeat: no-repeat;
     opacity: 0;
     visibility: hidden;
-    will-change: opacity, visibility;
+    
     animation-range: contain;
     pointer-events: none;
 }
@@ -11107,3 +11107,4 @@ html {
     15%, 50% { opacity: 1; transform: translate(-50%, -50%); }
     55%, 100% { opacity: 0; transform: translate(-50%, -60%); }
 }
+
