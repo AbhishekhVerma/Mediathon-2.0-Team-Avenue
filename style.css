@@ -9258,7 +9258,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #ff0a0a;
     color: white;
     text-align: center;
     padding: 0 20px;
@@ -11122,8 +11122,8 @@ html {
 
 /* KINETIC SLIT-SCAN STYLES */
 .kinetic-section {
-    height: 250vh;
-    background: #ff0a0a;
+    height: 150vh;
+    background: #000;
     position: relative;
     width: 100vw;
     overflow: hidden;
@@ -11139,17 +11139,19 @@ html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: #ff0a0a;
+    background: #000;
 }
 
 .kinetic-row {
     font-size: 4vw;
     font-weight: 900;
-    color: black;
+    color: #ff0a0a;
     white-space: nowrap;
     line-height: 0.85;
     text-transform: uppercase;
     animation: kinetic-slide linear both;
+    animation-timeline: view();
+    animation-range: cover 0% cover 100%;
 }
 
 @keyframes kinetic-slide {
@@ -11166,4 +11168,5 @@ html {
         letter-spacing: normal;
     }
 }
+
 
