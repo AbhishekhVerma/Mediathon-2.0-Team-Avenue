@@ -11111,3 +11111,11 @@ html {
 
 
 
+
+.kinetic-section-1 { view-timeline-name: --kinetic-timeline-1; }
+.kinetic-section-2 { view-timeline-name: --kinetic-timeline-2; }
+.kinetic-section-3 { view-timeline-name: --kinetic-timeline-3; }
+
+.kinetic-row-1 { animation-timeline: --kinetic-timeline-1; animation-range: cover 0% cover 100%; }
+.kinetic-row-2 { animation-timeline: --kinetic-timeline-2; animation-range: cover 0% cover 100%; }
+.kinetic-row-3 { animation-timeline: --kinetic-timeline-3; animation-range: cover 0% cover 100%; }
