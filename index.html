@@ -1031,10 +1031,10 @@
     <script>
         // Initialize Lenis for buttery smooth, slowed-down momentum scrolling
         const lenis = new Lenis({
-            duration: 2.5, // High duration slows down the scroll significantly
+            duration: 3.5, // High duration slows down the scroll significantly
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
             smooth: true,
-            mouseMultiplier: 0.5, // Halves the speed of the mouse wheel
+            mouseMultiplier: 0.15, // Halves the speed of the mouse wheel
             smoothTouch: false,
         });
 
@@ -1047,6 +1047,7 @@
     </script>
 </body>
 </html>
+
 
 
 
