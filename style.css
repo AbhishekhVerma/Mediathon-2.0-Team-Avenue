@@ -7085,7 +7085,7 @@ html {
 }
 @keyframes burst6_frame_32 {
     0%, 45.714% { opacity: 0; visibility: hidden; }
-    45.715%, 50% { opacity: 1; visibility: visible; }
+    45.715%, 50% { opacity: 0.7; filter: blur(3px); visibility: visible; }
     50.001%, 100% { opacity: 0; visibility: hidden; }
 }
 .burst6-img-32 {
@@ -11104,7 +11104,7 @@ html {
 
 @keyframes text-fade {
     0%, 10% { opacity: 0; transform: translate(-50%, -40%); }
-    15%, 50% { opacity: 1; transform: translate(-50%, -50%); }
+    15%, 50% { opacity: 0.7; filter: blur(3px); transform: translate(-50%, -50%); }
     55%, 100% { opacity: 0; transform: translate(-50%, -60%); }
 }
 
@@ -11178,6 +11178,7 @@ html {
 .kinetic-section-2 .kinetic-row { animation-timeline: --kin-2; animation-range: entry 100% exit 0%; }
 .kinetic-section-3 .kinetic-row { animation-timeline: --kin-3; animation-range: entry 100% exit 0%; }
 .kinetic-section-4 .kinetic-row { animation-timeline: --kin-4; animation-range: entry 100% exit 0%; }
+
 
 
 
