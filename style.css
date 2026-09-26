@@ -11285,10 +11285,12 @@ html {
     90%, 100% { opacity: 0; transform: translate(-50%, -60%); }
 }
 
-.double-exp-layer {
-    animation: kenBurnsLayer 15s ease-in-out infinite alternate;
-}
+
 @keyframes kenBurnsLayer {
     0% { transform: scale(1); }
     100% { transform: scale(1.03); }
+}
+
+.double-exp-sticky {
+    animation: kenBurnsLayer 15s ease-in-out infinite alternate;
 }
