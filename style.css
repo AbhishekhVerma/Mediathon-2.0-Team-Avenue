@@ -11119,3 +11119,50 @@ html {
 .kinetic-row-1 { animation-timeline: --kinetic-timeline-1; animation-range: cover 0% cover 100%; }
 .kinetic-row-2 { animation-timeline: --kinetic-timeline-2; animation-range: cover 0% cover 100%; }
 .kinetic-row-3 { animation-timeline: --kinetic-timeline-3; animation-range: cover 0% cover 100%; }
+
+/* KINETIC SLIT-SCAN STYLES */
+.kinetic-section {
+    height: 250vh;
+    background: #ff0a0a;
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.kinetic-container {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #ff0a0a;
+}
+
+.kinetic-row {
+    font-size: 4vw;
+    font-weight: 900;
+    color: black;
+    white-space: nowrap;
+    line-height: 0.85;
+    text-transform: uppercase;
+    animation: kinetic-slide linear both;
+}
+
+@keyframes kinetic-slide {
+    0% {
+        transform: translateX(0) scaleX(1);
+        letter-spacing: normal;
+    }
+    50% {
+        transform: translateX(var(--shift)) scaleX(1.5);
+        letter-spacing: 15px;
+    }
+    100% {
+        transform: translateX(0) scaleX(1);
+        letter-spacing: normal;
+    }
+}
