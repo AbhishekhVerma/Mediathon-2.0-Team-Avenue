@@ -8422,7 +8422,7 @@ html {
     object-fit: cover;
     object-position: center;
     opacity: 0;
-    will-change: opacity, transform;
+    
     pointer-events: none;
     filter: contrast(1.06) saturate(1.1);
 }
@@ -11107,4 +11107,5 @@ html {
     15%, 50% { opacity: 1; transform: translate(-50%, -50%); }
     55%, 100% { opacity: 0; transform: translate(-50%, -60%); }
 }
+
 
