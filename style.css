@@ -11140,6 +11140,8 @@ html {
     align-items: center;
     overflow: hidden;
     background: #000;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 7%, black 93%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 7%, black 93%, transparent 100%);
 }
 
 .kinetic-row {
@@ -11176,5 +11178,6 @@ html {
 .kinetic-section-2 .kinetic-row { animation-timeline: --kin-2; animation-range: entry 100% exit 0%; }
 .kinetic-section-3 .kinetic-row { animation-timeline: --kin-3; animation-range: entry 100% exit 0%; }
 .kinetic-section-4 .kinetic-row { animation-timeline: --kin-4; animation-range: entry 100% exit 0%; }
+
 
 
